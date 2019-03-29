@@ -4,7 +4,7 @@ def my_select(collection)
     newCollection = []
     while i < collection.length 
       if yield(collection[i])  == true
-      newCollection << yield(collection[i])
+      newCollection << collection[i]
     else
       
     end
